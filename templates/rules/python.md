@@ -1,0 +1,11 @@
+---
+paths: ["**/*.py", "**/tests/**"]
+---
+- Type hints on ALL function signatures — no exceptions
+- `logging` module only — never `print()` in production code
+- Catch specific exceptions: `except ValueError as e:` not bare `except:`
+- Prefer `pathlib.Path` over `os.path` string manipulation
+- Use `dataclasses` or `pydantic` for structured data, not plain dicts
+- f-strings for formatting, not `.format()` or `%`
+- Context managers (`with`) for file I/O and DB connections
+- `__all__` in modules with public API

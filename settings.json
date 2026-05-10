@@ -1,0 +1,20 @@
+{
+  "model": "opusplan",
+  "theme": "dark",
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-haiku-4-5-20251001"
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '\\a'",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

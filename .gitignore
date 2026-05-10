@@ -1,0 +1,26 @@
+# Runtime data — không commit
+backups/
+cache/
+downloads/
+file-history/
+paste-cache/
+session-env/
+sessions/
+shell-snapshots/
+tasks/
+telemetry/
+ide/
+plugins/
+plans/
+
+# Sensitive files
+.credentials.json
+history.jsonl
+stats-cache.json
+.last-cleanup
+
+# Per-project memory (có thể chứa thông tin nhạy cảm)
+projects/
+
+# Local overrides
+settings.local.json

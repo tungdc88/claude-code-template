@@ -1,0 +1,3 @@
+# Claude Code — add these to project .gitignore
+.claude/settings.local.json
+.claude/agent-memory-local/
